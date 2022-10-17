@@ -7,10 +7,10 @@ test.describe("Test Suite Example", () => {
         await page.goto("https://example.com")
     })
     test("Example Test Case", async ({ page }) => {
-        await page.screenshot({ path: "Fullscreenshot.png", fullPage: true})
+        await page.screenshot({ path: "Screenshots/Fullscreenshot.png", fullPage: true})
     })
     test("Example Test Case 2", async ({ page }) => {
         const element = await page.locator("h1")
-        await element.screenshot({ path: "elementscreenshot.png"})
+        await element.screenshot({ path: "Screenshots/elementscreenshot.png"})
     })
 })

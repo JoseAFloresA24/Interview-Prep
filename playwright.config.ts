@@ -6,7 +6,7 @@ const config: PlaywrightTestConfig = {
     reporter: [
         ['list'],
         ['html'],
-        ['json', { outputFile:'test-results.json' }]
+        ['json', { outputFile:'playwright-report/test-results.json' }]
     ],
     use: {
         headless: true,
