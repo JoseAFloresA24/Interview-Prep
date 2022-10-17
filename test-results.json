@@ -1,0 +1,200 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/jose_/Documents/GitHub/Interview-Prep/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Chromium",
+        "name": "Chromium",
+        "testDir": "C:/Users/jose_/Documents/GitHub/Interview-Prep",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/jose_/Documents/GitHub/Interview-Prep/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Firefox",
+        "name": "Firefox",
+        "testDir": "C:/Users/jose_/Documents/GitHub/Interview-Prep",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/jose_/Documents/GitHub/Interview-Prep/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Webkit",
+        "name": "Webkit",
+        "testDir": "C:/Users/jose_/Documents/GitHub/Interview-Prep",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "C:\\Users\\jose_\\Documents\\GitHub\\Interview-Prep\\playwright.config.ts",
+    "rootDir": "C:/Users/jose_/Documents/GitHub/Interview-Prep",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.27.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\example.spec.ts",
+      "file": "tests/example.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Basic Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chromium",
+              "projectName": "Chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 225,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-17T11:58:57.546Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b3a1b63342050f33a2cc-ded6661231d095eb1c02",
+          "file": "tests/example.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ],
+      "suites": [
+        {
+          "title": "Test Suite Example",
+          "file": "tests/example.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Example Test Case",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 342,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2022-10-17T11:58:58.093Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b3a1b63342050f33a2cc-7a9de0039c21ca8bcb05",
+              "file": "tests/example.spec.ts",
+              "line": 13,
+              "column": 5
+            },
+            {
+              "title": "Example Test Case 2",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 244,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2022-10-17T11:58:58.436Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b3a1b63342050f33a2cc-7824c5ddbeafe12dcf48",
+              "file": "tests/example.spec.ts",
+              "line": 16,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
