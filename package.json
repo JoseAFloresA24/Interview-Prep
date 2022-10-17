@@ -1,0 +1,24 @@
+{
+  "name": "interview-prep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseAFloresA24/Interview-Prep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseAFloresA24/Interview-Prep/issues"
+  },
+  "homepage": "https://github.com/JoseAFloresA24/Interview-Prep#readme",
+  "dependencies": {
+    "@playwright/test": "^1.27.1",
+    "expect": "^29.2.0",
+    "prettier": "^2.7.1"
+  }
+}
