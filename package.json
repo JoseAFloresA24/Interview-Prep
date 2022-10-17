@@ -7,7 +7,8 @@
     "tests:chrome": "playwright test --config=playwright.config.ts --project=Chromium",
     "tests:firefox": "playwright test --config=playwright.config.ts --project=Firefox",
     "tests:webkit": "playwright test --config=playwright.config.ts --project=Webkit",
-    "jenkins-server": "java -jar jenkins.war --httpPort=8080 --enable-future-java"
+    "jenkins-server": "java -jar jenkins.war --httpPort=8080 --enable-future-java",
+    "tests:api": "playwright test --config=api.config.ts"
   },
   "repository": {
     "type": "git",
